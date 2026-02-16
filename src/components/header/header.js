@@ -17,8 +17,8 @@ export default function header (){
     searchButton.addEventListener('click', async () => {
 
         const response = await fecthApi (null, searchInput.value)
-        
-        printCards(response.results)
+        const items = Array.isArray(response) ? response : (response?.results ?? [])
+        printCards(items)
     }
 
     )
