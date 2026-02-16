@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: center;
+    align-items: center;
+}
+
+.search_input{
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px;
+    outline: none;
+    color:black;
+
+    
+}
