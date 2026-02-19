@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -7,10 +7,15 @@
   color: rgba(0, 0, 0, 0.);
   background-color: #ffffff;
 
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  width: 100%;
 }
 
 .picture-container {
@@ -20,5 +25,18 @@
   width:100%;
   align-items: center;
   gap: 20px;
+
+}
+
+@media (max-width: 768px) and (max-width: 1024px) {
+  .picture-container{
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+  }
+
 
 }

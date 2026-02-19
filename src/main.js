@@ -9,7 +9,7 @@ import printCards from './utils/printCards.js';
 const app = document.querySelector('#app')
 
 async function main(){  
-   // 
+   
 
     app.appendChild(header())
     app.appendChild(Home())
