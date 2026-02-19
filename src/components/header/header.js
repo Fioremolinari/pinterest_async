@@ -11,7 +11,7 @@ export default function header (){
 
     const logoImg = document.createElement('img')
     logoImg.className = 'logoImg'
-    logoImg.src = 'public/assest/logo-pinterest.jpg' 
+    logoImg.src = './public/logo-pinterest.jpg' 
 
     // nav
 
