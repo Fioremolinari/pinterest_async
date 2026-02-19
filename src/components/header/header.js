@@ -11,7 +11,7 @@ export default function header (){
 
     const logoImg = document.createElement('img')
     logoImg.className = 'logoImg'
-    logoImg.src = 'assest/logo-pinterest.jpg'
+    logoImg.src = 'public/assest/logo-pinterest.jpg' alt="logo"
 
     // nav
 
@@ -76,15 +76,15 @@ export default function header (){
 
     const bellIcon = document.createElement('img')
     bellIcon.className = 'bellIcon'
-    bellIcon.src = './assest/bell-icon.svg'  
+    bellIcon.src = 'public/assest/bell-icon.svg'  alt = "alertas"
 
     const messageIcon = document.createElement('img')
     messageIcon.className = 'messageIcon'
-    messageIcon.src = './assest/message-icon.svg'  
+    messageIcon.src = 'public/assest/message-icon.svg'  alt = "mensajes"
         
     const userIcon = document.createElement('img')
     userIcon.className = 'userIcon'
-    userIcon.src = './assest/letter-f.svg'  
+    userIcon.src = 'public/assest/letter-f.svg'  alt = "usuario"
 
     nav.append(menuButton, ul);
     searchContainer.append(searchInput, searchButton);
